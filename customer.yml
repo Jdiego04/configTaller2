@@ -7,4 +7,7 @@ spring:
     name: customer
   profiles:
     active: dev
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9010/eureka/
