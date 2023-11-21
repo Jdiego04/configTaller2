@@ -1,10 +1,10 @@
 server:
   servlet:
-    context-path: /api/v1/poli
-  port: 9081
+    context-path: /api/poli
+  port: 9082
 spring:
   application:
-    name: customer
+    name: movies
   profiles:
     active: dev
 eureka:

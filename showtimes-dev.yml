@@ -9,3 +9,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
+swagger:
+  enabled: true
+  title: movies
+  description:
+  version: 1.0

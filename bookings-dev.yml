@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:products
+    url: jdbc:h2:mem:customers
     username: sa
     password: sa
     driverClassName: org.h2.Driver
@@ -9,3 +9,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
+swagger:
+  enabled: true
+  title: bookings
+  description:
+  version: 1.0
